@@ -102,6 +102,7 @@ function App() {
     onAddTask={handleAddTask} 
     onDeleteTask={handleDeleteTask} 
     tasks={projectState.tasks}
+    projectId={projectState.selectedProjectId}
     />;
   
   if(projectState.selectedProjectId === null) {
